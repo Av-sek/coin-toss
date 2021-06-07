@@ -1,0 +1,42 @@
+body
+{
+   max-width: 1000px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   background-color: #393d48;
+}
+.container
+{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+#luck{
+    font-size: 6rem;
+    width: 10%;
+    color: white;
+    margin-left: 1.5em;
+
+}
+
+#cointoss
+{
+    width: 90%;
+}
+.header
+{
+    margin-left: 50%;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+button
+{
+    padding: 1em;
+    font-size: 1rem;
+    background-color: #393d48;
+    border-radius: 1em;
+    color: white;
+}
+button:hover{
+    padding: .9em;
+}
