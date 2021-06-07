@@ -12,14 +12,12 @@ function tails()
 }
 function flipping()
 {
-    console.log("called")
     document.getElementById("cointoss").src="coin.gif";
 }
 function myfunction()
 {
     luck.innerHTML="Flipping";
     var random=Math.floor(Math.random()*9+1);
-    console.log(random);
     flipping();
 
     if(random%2==0)
